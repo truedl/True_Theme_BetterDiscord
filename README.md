@@ -1,4 +1,4 @@
-# True_Theme
+# True_Theme_BetterDiscord
 Dark simple theme for betterdiscord<br/>
 👉 Last Version **0.0.1** 👈
 
