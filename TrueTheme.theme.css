@@ -1,4 +1,4 @@
-//META {"name": "True_Theme", "description": "Dark simple theme", "author": "Truemedia", "version": "0.0.1"}*//{}
+//META {"name": "True_Theme", "description": "Dark simple theme", "author": "Truemedia", "version": "0.0.2"}*//{}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -17,13 +17,17 @@ body {
 .theme-dark .gameLibrary-TTDw4Y, .theme-dark .root-1BQpZw, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
 .theme-dark .modal-3HD5ck, .theme-dark .autocomplete-1vrmpx, .theme-light .footer-2yfCgX, .theme-dark .body-3ND3kc,
 .theme-dark .messagesPopoutWrap-1MQ1bW, .theme-dark .header-ykumBX, .theme-dark .jumpButton-3DTcS_, .topSectionPlaying-1J5E4n,
-.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy {
+.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy, .video-1FfuMD, .topSectionPlaying-1J5E4n {
     background-color: rgb(34, 34, 34);
 }
 
 .newMessagesBar-mujexs, .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_, .theme-dark .action-1lSjCi, .theme-light .action-1lSjCi,
 .theme-dark .cardPrimary-1Hv-to, .theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
     background-color: rgb(42, 42, 42);
+}
+
+.theme-dark .input-2VB9rf {
+    background-color: rgb(22, 22, 22);
 }
 
 .itemDefault-3Jdr52, .ui-tab-bar-item {
