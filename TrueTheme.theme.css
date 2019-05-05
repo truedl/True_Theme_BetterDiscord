@@ -1,4 +1,4 @@
-//META {"name": "True_Theme", "description": "Dark simple theme", "author": "Truemedia", "version": "0.0.2"}*//{}
+//META {"name": "True_Theme", "description": "Dark simple theme", "author": "Truemedia", "version": "0.0.3"}*//{}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -17,7 +17,7 @@ body {
 .theme-dark .gameLibrary-TTDw4Y, .theme-dark .root-1BQpZw, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
 .theme-dark .modal-3HD5ck, .theme-dark .autocomplete-1vrmpx, .theme-light .footer-2yfCgX, .theme-dark .body-3ND3kc,
 .theme-dark .messagesPopoutWrap-1MQ1bW, .theme-dark .header-ykumBX, .theme-dark .jumpButton-3DTcS_, .topSectionPlaying-1J5E4n,
-.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy, .video-1FfuMD, .topSectionPlaying-1J5E4n {
+.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy, .video-1FfuMD, .topSectionPlaying-1J5E4n, .theme-dark .container-1r6BKw {
     background-color: rgb(34, 34, 34);
 }
 
@@ -26,7 +26,7 @@ body {
     background-color: rgb(42, 42, 42);
 }
 
-.theme-dark .input-2VB9rf {
+.theme-dark .input-2VB9rf, .numberBadge-2s8kKX .base-PmTxvP .da-numberBadge .da-base {
     background-color: rgb(22, 22, 22);
 }
 
