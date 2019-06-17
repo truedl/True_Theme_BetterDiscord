@@ -1,4 +1,4 @@
-//META {"name": "True_Theme", "description": "Dark simple theme", "author": "Truemedia", "version": "0.0.3"}*//{}
+//META {"name": "True_Theme", "description": "Dark simple theme", "author": "Truemedia", "version": "0.0.4"}*//{}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -17,7 +17,8 @@ body {
 .theme-dark .gameLibrary-TTDw4Y, .theme-dark .root-1BQpZw, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
 .theme-dark .modal-3HD5ck, .theme-dark .autocomplete-1vrmpx, .theme-light .footer-2yfCgX, .theme-dark .body-3ND3kc,
 .theme-dark .messagesPopoutWrap-1MQ1bW, .theme-dark .header-ykumBX, .theme-dark .jumpButton-3DTcS_, .topSectionPlaying-1J5E4n,
-.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy, .video-1FfuMD, .topSectionPlaying-1J5E4n, .theme-dark .container-1r6BKw {
+.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy, .video-1FfuMD, .topSectionPlaying-1J5E4n, .theme-dark .container-1r6BKw, .theme-dark .noChannel-Z1DQK7,
+.appMount-3lHmkl, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .emptyPlayers-dx3qig, .theme-dark .players-1zg2l8, .theme-dark .footer-3J5oP4 {
     background-color: rgb(34, 34, 34);
 }
 
@@ -104,4 +105,48 @@ body {
 .isMentionedCozy-3isp7y:after {
     background-color: rgba(187, 187, 187, 0.2);
     border-color: #fff;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91, .lookFilled-1Gx00P.colorGreen-29iAKY {
+    transition: .4s;
+    background-color: #fff;
+    color: #000;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    transition: .4s;
+    background-color: rgb(206, 206, 206);
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: #7289da;
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: #7289da;
+}
+
+.circleIconButton-jET_ig, .theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    color: #fff;
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    background-color: #282828;
+}
+
+.theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ, .theme-dark .join-33Tr-7 .actionButton-2PeQbJ, .theme-light .join-33Tr-7 .actionButton-2PeQbJ, .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #000;
+    background-color: #fff;
+}
+
+.theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .input-cIJ7To:focus {
+    border-color: #fff;
+}
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background-color: rgb(172, 172, 172);
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    background-color: rgba(255, 255, 255, 0.4);
 }
