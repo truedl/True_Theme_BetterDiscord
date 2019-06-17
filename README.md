@@ -1,6 +1,6 @@
 # True_Theme_BetterDiscord
 Dark simple theme for betterdiscord<br/>
-👉 Last Version **0.0.3** 👈
+👉 Last Version **0.0.4** 👈
 
 # Screenshots
 https://prnt.sc/ncc4nc<br/>
